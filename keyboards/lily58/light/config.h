@@ -33,8 +33,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 6
 
 // wiring of each half
-#define MATRIX_ROW_PINS { C6, D7, E6, B4, B5 }
-#define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
+#define MATRIX_ROW_PINS { D4, C6, D7, E6, B4 }
+#define MATRIX_COL_PINS { B1, B2, B3, B6, F7, F6 }
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
@@ -46,6 +46,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLED_NUM 70
 #define RGBLIGHT_SPLIT
 #define RGBLIGHT_LIMIT_VAL 120
+
+#define SPLIT_HAND_PIN B5
 
 #define ENCODERS_PAD_A { F4 }
 #define ENCODERS_PAD_B { F5 }
